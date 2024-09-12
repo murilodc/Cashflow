@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CashFlow.Exception {
+namespace CashFlow.Domain.Reports {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace CashFlow.Exception {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class ResourceErrorMessages {
+    public class ResourceReportGeneratorMessages {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal ResourceErrorMessages() {
+        internal ResourceReportGeneratorMessages() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace CashFlow.Exception {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CashFlow.Exception.ResourceErrorMessages", typeof(ResourceErrorMessages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CashFlow.Domain.Reports.ResourceReportGeneratorMessages", typeof(ResourceReportGeneratorMessages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,56 +61,47 @@ namespace CashFlow.Exception {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The amount must be greater than zero.
+        ///   Looks up a localized string similar to Amount.
         /// </summary>
-        public static string AMOUNT_MUST_BE_GREATER_THAN_ZERO {
+        public static string AMOUNT {
             get {
-                return ResourceManager.GetString("AMOUNT_MUST_BE_GREATER_THAN_ZERO", resourceCulture);
+                return ResourceManager.GetString("AMOUNT", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Expense not found..
+        ///   Looks up a localized string similar to Date.
         /// </summary>
-        public static string EXPENSE_NOT_FOUND {
+        public static string DATE {
             get {
-                return ResourceManager.GetString("EXPENSE_NOT_FOUND", resourceCulture);
+                return ResourceManager.GetString("DATE", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Expenses cannot be for the future.
+        ///   Looks up a localized string similar to Description.
         /// </summary>
-        public static string EXPENSES_CANNOT_FOR_THE_FUTURE {
+        public static string DESCRIPTION {
             get {
-                return ResourceManager.GetString("EXPENSES_CANNOT_FOR_THE_FUTURE", resourceCulture);
+                return ResourceManager.GetString("DESCRIPTION", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Payment Type is not valid..
+        ///   Looks up a localized string similar to Payment Type.
         /// </summary>
-        public static string PAYMENT_TYPE_INVALID {
+        public static string PAYMENT_TYPE {
             get {
-                return ResourceManager.GetString("PAYMENT_TYPE_INVALID", resourceCulture);
+                return ResourceManager.GetString("PAYMENT_TYPE", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The title is required..
+        ///   Looks up a localized string similar to Title.
         /// </summary>
-        public static string TITLE_REQUIRED {
+        public static string TITLE {
             get {
-                return ResourceManager.GetString("TITLE_REQUIRED", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Unknown error.
-        /// </summary>
-        public static string UNKNOWN_ERROR {
-            get {
-                return ResourceManager.GetString("UNKNOWN_ERROR", resourceCulture);
+                return ResourceManager.GetString("TITLE", resourceCulture);
             }
         }
     }
