@@ -120,16 +120,34 @@
   <data name="AMOUNT" xml:space="preserve">
     <value>Valor</value>
   </data>
+  <data name="CASH" xml:space="preserve">
+    <value>Dinheiro</value>
+  </data>
+  <data name="CREDIT_CARD" xml:space="preserve">
+    <value>Cartão de crédito</value>
+  </data>
   <data name="DATE" xml:space="preserve">
     <value>Data</value>
+  </data>
+  <data name="DEBIT_CARD" xml:space="preserve">
+    <value>Cartão de débito</value>
   </data>
   <data name="DESCRIPTION" xml:space="preserve">
     <value>Descrição</value>
   </data>
+  <data name="EXPENSES_FOR" xml:space="preserve">
+    <value>Despesas para</value>
+  </data>
   <data name="PAYMENT_TYPE" xml:space="preserve">
     <value>Forma de pagamento</value>
   </data>
+  <data name="PIX" xml:space="preserve">
+    <value>Pix</value>
+  </data>
   <data name="TITLE" xml:space="preserve">
     <value>Título</value>
+  </data>
+  <data name="TOTAL_SPENT_IN" xml:space="preserve">
+    <value>Total gasto em {0}</value>
   </data>
 </root>
