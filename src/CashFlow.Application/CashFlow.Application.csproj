@@ -7,6 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="UseCases\NewFolder1\**" />
+    <Compile Remove="UseCases\NewFolder2\**" />
+    <EmbeddedResource Remove="UseCases\NewFolder1\**" />
+    <EmbeddedResource Remove="UseCases\NewFolder2\**" />
+    <None Remove="UseCases\NewFolder1\**" />
+    <None Remove="UseCases\NewFolder2\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="UseCases\Expenses\Reports\Pdf\Fonts\Raleway-Black.ttf" />
     <None Remove="UseCases\Expenses\Reports\Pdf\Fonts\Raleway-Regular.ttf" />
     <None Remove="UseCases\Expenses\Reports\Pdf\Fonts\WorkSans-Black.ttf" />
