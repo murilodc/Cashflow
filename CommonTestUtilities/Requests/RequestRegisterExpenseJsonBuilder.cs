@@ -12,6 +12,6 @@ public class RequestRegisterExpenseJsonBuilder
             .RuleFor(r => r.Description, faker => faker.Commerce.ProductDescription())
             .RuleFor(r => r.Date, faker => faker.Date.Past())
             .RuleFor(r => r.PaymentType, faker => faker.PickRandom<PaymentType>())
-            .RuleFor(r => r.Amount, faker => faker.Random.Decimal(min: 1, max:10));
+            .RuleFor(r => r.Amount, faker => faker.Random.Decimal(1m, 10m)); // Garanta que os valores sejam decimais positivos
     }
 }
