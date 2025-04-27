@@ -18,10 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\CommonTestUtilities\CommonTestUtilities.csproj" />
     <ProjectReference Include="..\..\src\CashFlow.Application\CashFlow.Application.csproj" />
     <ProjectReference Include="..\..\src\CashFlow.Communication\CashFlow.Communication.csproj" />
     <ProjectReference Include="..\..\src\CashFlow.Exception\CashFlow.Exception.csproj" />
+    <ProjectReference Include="..\CommonTestUtilities\CommonTestUtilities.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,5 +1,4 @@
-﻿using CashFlow.Application.UseCases.Users;
-using CashFlow.Application.UseCases.Users.Register;
+﻿using CashFlow.Application.UseCases.User;
 using CashFlow.Communication.Requests;
 using CommonTestUtilities.Requests;
 using FluentAssertions;

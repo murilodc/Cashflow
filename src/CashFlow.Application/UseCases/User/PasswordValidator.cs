@@ -1,10 +1,9 @@
-﻿using CashFlow.Exception;
+﻿using System.Text.RegularExpressions;
+using CashFlow.Exception;
 using FluentValidation;
 using FluentValidation.Validators;
-using System.ComponentModel.DataAnnotations;
-using System.Text.RegularExpressions;
 
-namespace CashFlow.Application.UseCases.Users;
+namespace CashFlow.Application.UseCases.User;
 public class PasswordValidator<T> : PropertyValidator<T, string>
 {
     private const string ERROR_MESSAGE_KEY = "ErrorMessage";

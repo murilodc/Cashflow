@@ -1,13 +1,12 @@
+using System.Text;
 using CashFlow.Api.Filters;
 using CashFlow.Api.Middleware;
 using CashFlow.Application;
 using CashFlow.Infrastructure;
-using CashFlow.Infrastructure.DataAccess;
 using CashFlow.Infrastructure.Migrations;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -90,4 +89,12 @@ async Task MigrateDatabase()
     await using var scope = app.Services.CreateAsyncScope();
 
     await DatabaseMigration.MigrateDatabase(scope.ServiceProvider);
+}
+
+namespace CashFlow.Api
+{
+    public partial class Program
+    {
+    
+    }
 }

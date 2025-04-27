@@ -9,7 +9,7 @@ using CashFlow.Exception;
 using CashFlow.Exception.ExceptionsBase;
 using FluentValidation.Results;
 
-namespace CashFlow.Application.UseCases.Users.Register;
+namespace CashFlow.Application.UseCases.User.Register;
 public class RegisterUserUseCase : IRegisterUserUseCase
 {
     private readonly IMapper _mapper;
