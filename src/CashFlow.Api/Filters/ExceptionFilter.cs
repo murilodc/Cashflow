@@ -26,7 +26,7 @@ public class ExceptionFilter : IExceptionFilter
         var errorResponse = new ResponseErrorJson(cashFlowException.GetErrors());
 
         context.HttpContext.Response.StatusCode = cashFlowException.StatusCode;
-        context.Result = new BadRequestObjectResult(errorResponse);
+        context.Result = new ObjectResult(errorResponse) { StatusCode = cashFlowException.StatusCode };
 
        
     }
